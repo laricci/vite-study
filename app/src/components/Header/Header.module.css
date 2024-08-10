@@ -9,12 +9,12 @@
     justify-content: space-around;
 }
 
-.header > span {
+.header span {
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.header > nav > a {
+.header a {
     font-size: 1.125rem;
     text-decoration: none;
     color: var(--white);
@@ -22,6 +22,6 @@
 }
 
 
-.header > nav > a:hover {
+.header a:hover {
     color: var(--red);
 }
