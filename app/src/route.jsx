@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Projetos from "./pages/Projetos";
 import Contatos from "./pages/Contatos";
+import NotFound from "./pages/NotFound";
 
 function AppRoute() {
     return (
@@ -12,6 +13,7 @@ function AppRoute() {
                 <Route path="/sobre"    element={<Sobre/>}   ></Route>
                 <Route path="/projetos" element={<Projetos/>}></Route>
                 <Route path="/contatos" element={<Contatos/>}></Route>
+                <Route path="/*"        element={<NotFound/>}></Route>
             </Routes>
         </BrowserRouter>
     )
